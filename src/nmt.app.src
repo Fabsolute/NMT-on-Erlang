@@ -1,0 +1,13 @@
+{application, nmt, [
+  {description, "NMT"},
+  {vsn, "1"},
+  {modules, []},
+  {registered, [nmt_sup]},
+  {applications, [
+    kernel,
+    stdlib,
+    cowboy
+  ]},
+  {mod, {nmt_app, []}},
+  {env, []}
+]}.

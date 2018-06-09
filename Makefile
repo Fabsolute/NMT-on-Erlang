@@ -1,0 +1,6 @@
+PROJECT = nmt
+PROJECT_DESCRIPTION = NMT
+PROJECT_VERSION = 0.1.0
+DEPS = cowboy
+
+include erlang.mk
